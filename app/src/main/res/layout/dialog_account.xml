@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_account_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/ev_account"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dialog_account_title"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="@string/account"
+        android:textSize="16sp"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/ev_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ev_account"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="@string/pwd"
+        android:textSize="16sp"
+        android:inputType="textPassword" />
+
+    <ImageButton
+        android:id="@+id/btn_account_ok"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/ev_pwd"
+        android:layout_below="@+id/ev_pwd"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_count_ok"
+        tools:ignore="ContentDescription" />
+    
+    <ImageButton
+        android:id="@+id/btn_account_cancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@id/ev_pwd"
+        android:layout_below="@+id/ev_pwd"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_count_cancel"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

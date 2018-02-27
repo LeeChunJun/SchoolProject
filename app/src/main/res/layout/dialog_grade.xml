@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/dialog_grade_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text="成绩信息"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <ImageView
+        android:id="@+id/iv_dialog_grade_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/dialog_grade_title"
+        android:background="#AEB1B3" />
+    
+    <TextView
+        android:id="@+id/tv_dialog_grade_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/iv_dialog_grade_1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="考试时间:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_grade_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dialog_grade_1"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/tv_dialog_grade_1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_dialog_grade_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_dialog_grade_1"
+        android:layout_below="@id/tv_dialog_grade_1"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="    课程号:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_grade_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dialog_grade_2"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/tv_dialog_grade_2"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_dialog_grade_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_dialog_grade_2"
+        android:layout_below="@id/tv_dialog_grade_2"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="课程名称:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_grade_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dialog_grade_3"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/tv_dialog_grade_3"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_dialog_grade_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_dialog_grade_3"
+        android:layout_below="@id/tv_dialog_grade_3"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="课程成绩:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_grade_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dialog_grade_4"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/tv_dialog_grade_4"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_dialog_grade_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_dialog_grade_4"
+        android:layout_below="@id/tv_dialog_grade_4"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="所得学分:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_grade_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dialog_grade_5"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/tv_dialog_grade_5"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_dialog_grade_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_dialog_grade_5"
+        android:layout_below="@id/tv_dialog_grade_5"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="补考成绩:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_grade_AS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dialog_grade_6"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/tv_dialog_grade_6"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_dialog_grade_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_dialog_grade_6"
+        android:layout_below="@id/tv_dialog_grade_6"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="    标准分:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tv_grade_SS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dialog_grade_7"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/tv_dialog_grade_7"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <ImageButton
+        android:id="@+id/btn_grade_ok"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_dialog_grade_7"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_ok" />
+
+</RelativeLayout>

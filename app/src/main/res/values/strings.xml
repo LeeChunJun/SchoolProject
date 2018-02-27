@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">校内易行</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_menu_home">主页</string>
+    <string name="tab_menu_campus">校内</string>
+    <string name="tab_menu_study">学习</string>
+    <string name="tab_menu_setting">设置</string>
+    <string name="home_tab_course">课程表</string>
+    <string name="home_tab_history">历史今天</string>
+    <string name="campus_tab_topics">话题社</string>
+    <string name="campus_tab_life">生活</string>
+    <string name="campus_tab_news">今日新闻</string>
+    <string name="study_tab_library">图书馆</string>
+    <string name="study_tab_edu">教务</string>
+    <string name="JWaccount">教务账号</string>
+    <string name="TUaccount">图书馆账号</string>
+    <string name="ExitApp">退出应用</string>
+    <string name="title_activity_news">每日新闻</string>
+    <string name="title_activity_history">历史今天</string>
+    <string name="title_activity_topic">话题社</string>
+    <string name="title_activity_weather">天气查询</string>
+    <string name="title_activity_delivery">快递</string>
+    <string name="title_activity_final_exam">考试安排</string>
+    <string name="title_activity_get_grade">成绩查询</string>
+    <string name="title_activity_calender">校历查询</string>
+    <string name="title_activity_library">图书借阅</string>
+    <string name="title_activity_get_cet">四六级查询</string>
+    <string name="title_activity_lesson_note">课堂笔记</string>
+    <string name="account">账号</string>
+    <string name="pwd">密码</string>
+    <string name="search">Search</string>
+</resources>

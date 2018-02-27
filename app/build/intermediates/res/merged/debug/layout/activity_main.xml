@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.leechunjun.school.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/id_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+    
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/bg_white"
+        android:orientation="horizontal"
+        android:elevation="12dp">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_home"
+            android:text="@string/tab_menu_home" />
+
+        <RadioButton
+            android:id="@+id/rb_campus"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_campus"
+            android:text="@string/tab_menu_campus" />
+
+        <RadioButton
+            android:id="@+id/rb_study"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_study"
+            android:text="@string/tab_menu_study" />
+        
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_setting"
+            android:text="@string/tab_menu_setting"/>
+
+    </RadioGroup>
+
+</LinearLayout>

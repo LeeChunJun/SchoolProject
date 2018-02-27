@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leechunjun.school.activity.LessonNoteActivity" >
+
+    <ListView
+        android:id="@+id/lesson_note_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp" />
+
+    <ImageView
+        android:id="@+id/note_notice_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    
+    <ImageButton
+        android:id="@+id/lesson_add_note_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/buttom_add_note"
+        android:background="@drawable/buttom_add_note_background"
+        android:translationZ="12dp" />
+
+</RelativeLayout>

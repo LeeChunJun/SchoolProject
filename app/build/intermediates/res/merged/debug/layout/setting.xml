@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/wrap_layout" >
+
+        <!-- 上圆角 -->
+
+        <LinearLayout
+            android:id="@+id/ll_jw_count"
+            style="@style/top_layout"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/tv_jw_account"
+                style="@style/usertext"
+                android:text="@string/JWaccount" />
+
+            <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+
+        <!-- 分割线 -->
+
+        <View style="@style/bg_line" />
+
+        <!-- 下圆角 -->
+
+        <LinearLayout
+            android:id="@+id/ll_tu_count"
+            style="@style/bottom_layout"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/tv_tu_account"
+                style="@style/usertext"
+                android:text="@string/TUaccount" />
+
+            <ImageView style="@style/img_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 全圆角 -->
+
+    <LinearLayout style="@style/wrap_layout" >
+
+        <LinearLayout
+            android:id="@+id/ll_exit_app"
+            style="@style/single_layout"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/usertext"
+                android:gravity="center"
+                android:text="@string/ExitApp"
+                android:textColor="#FFC800" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

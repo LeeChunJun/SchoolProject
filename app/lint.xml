@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_calender.xml" />
+        <ignore path="res/layout/activity_lesson_note.xml" />
+        <ignore path="res/layout/activity_weather.xml" />
+        <ignore path="res/layout/campus1.xml" />
+        <ignore path="res/layout/campus3.xml" />
+        <ignore path="res/layout/dialog_course.xml" />
+        <ignore path="res/layout/dialog_grade.xml" />
+        <ignore path="res/layout/dialog_lesson_note.xml" />
+        <ignore path="res/layout/grid_item.xml" />
+        <ignore path="res/layout/home1.xml" />
+        <ignore path="res/layout/home2.xml" />
+        <ignore path="res/layout/item_history_detail_pic.xml" />
+        <ignore path="res/layout/item_news.xml" />
+        <ignore path="res/layout/item_topic.xml" />
+        <ignore path="res/layout/setting.xml" />
+    </issue>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/leechunjun/school/Home1Fragment.java" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_weather.xml" />
+        <ignore path="res/layout/dialog_course.xml" />
+        <ignore path="res/layout/dialog_grade.xml" />
+        <ignore path="res/layout/dialog_lesson_note.xml" />
+        <ignore path="res/layout/item_news.xml" />
+        <ignore path="res/layout/item_topic.xml" />
+    </issue>
+    <issue id="InflateParams">
+        <ignore path="src/com/leechunjun/school/Home1Fragment.java" />
+        <ignore path="src/com/leechunjun/school/SettingFragment.java" />
+        <ignore path="src/com/leechunjun/school/activity/GetCETActivity.java" />
+        <ignore path="src/com/leechunjun/school/activity/GetGradeActivity.java" />
+        <ignore path="src/com/leechunjun/school/activity/LessonNoteActivity.java" />
+    </issue>
+    <issue id="OldTargetApi">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="SetJavaScriptEnabled" severity="ignore">
+        <ignore path="src/com/leechunjun/school/activity/DeliveryActivity.java" />
+        <ignore path="src/com/leechunjun/school/activity/NewsActivity.java" />
+        <ignore path="src/com/leechunjun/school/activity/TopicActivity.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/leechunjun/school/activity/LessonNoteActivity.java" />
+    </issue>
+    <issue id="UnusedAttribute">
+        <ignore path="AndroidManifest.xml" />
+        <ignore path="res/layout/activity_lesson_note.xml" />
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/campus1.xml" />
+        <ignore path="res/layout/campus3.xml" />
+        <ignore path="res/layout/home2.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/grid_item.xml" />
+        <ignore path="res/layout/setting.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/setting.xml" />
+    </issue>
+</lint>

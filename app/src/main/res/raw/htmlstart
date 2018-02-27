@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>全国大学英语四、六级考试官方成绩查询网站_中国高等教育学生信息网（学信网）</title>
+    <meta name="keywords" content="四六级成绩,四六级查分,大学英语四六级"/>
+    <meta name="description" content="教育部授权全国高等学校学生信息咨询与就业指导中心承担大学英语四、六级考试成绩网上查询及验证服务工作，并负责该工作运行过程中的大学英语四、六级考试成绩数据库管理与维护。"/>
+    <link href='http://t2.chsi.com.cn/chsi/css/common2014.css' rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        .r_link1 {
+            background: url("http://t4.chsi.com.cn/chsi/images/index/cet_icon.gif") no-repeat scroll 10px 5px #F5FCFE;
+            border: 1px solid #C4DDF1;
+            border-radius: 4px;
+            font: bold 14px/40px '微软雅黑';
+            height: 40px;
+            margin: 0 auto 10px auto;
+            padding-left: 52px;
+            text-align: left;
+            width: 125px;
+        }
+
+        .r_link2 {
+            background: url("http://t3.chsi.com.cn/chsi/images/index/cet_icon.gif") no-repeat scroll 10px -45px #F5FCFE;
+        }
+        .cetTable {margin: 0 auto;width: 70%;}
+        .cetTable th {font-weight: bold;text-align: right;color:#000;}
+        .cetTable td {text-align: left;}
+        .cetTable  .td_title{text-align: center;background-color: #b9cde5;height: 32px;line-height: 32px;}
+        .cetTable  .td_tips{text-align: center;color:#666;}
+        .cetTable  .space{width: 28px;display: inline-block;}
+        .cetTable  .space_long{width: 42px;display: inline-block;}
+    </style>
+    
+
+<script src="http://t1.chei.com.cn/common/js/boomerang-min-20141211.js" type="text/javascript"></script>
+<script type="text/javascript">
+BOOMR.init({
+	beacon_url: "http://www.chsi.com.cn/images/perf.gif",
+	log: null,
+    DNS:{
+        base_url: "http://*.chdi.com.cn/images/"
+    }
+});
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-100524-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>

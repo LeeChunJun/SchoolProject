@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_view_title_color">#f6902e</color>
+    <color name="bg_yellow">#f6902e</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="text_yellow">#FFC800</color>
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_dark">#66FFFFFF</color>
+    
+    <!-- 设置页面描边颜色 -->
+    <color name="border_clo">#ccc</color>
+    <color name="text_clo">#333</color>
+    <color name="white">#fff</color>
+    <color name="blue">#419DE4</color>
+</resources>

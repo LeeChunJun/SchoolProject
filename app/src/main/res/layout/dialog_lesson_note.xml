@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/dialog_note_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="4dp"
+        android:text="标题"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/dialog_note_add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_edit"
+        android:singleLine="true"
+        android:enabled="true"
+        android:inputType="text"
+        android:hint="Type title here"
+        android:layout_alignBottom="@id/dialog_note_title"
+        android:layout_toRightOf="@id/dialog_note_title"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="4dp" 
+        android:padding="2dp"
+        android:paddingLeft="4dp"/>
+        
+    <EditText
+        android:id="@+id/dialog_note_add_content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/dialog_edit"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="13"
+        android:minLines="8"
+        android:scrollbars="vertical" 
+        android:hint="Type something here"
+        android:layout_below="@id/dialog_note_add_title"
+        android:layout_marginTop="4dp" />
+    
+    <ImageButton
+        android:id="@+id/btn_note_ok"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/dialog_note_add_content"
+        android:layout_below="@id/dialog_note_add_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_count_ok" />
+    
+    <ImageButton
+        android:id="@+id/btn_note_cancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@id/dialog_note_add_content"
+        android:layout_below="@id/dialog_note_add_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_count_cancel" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/Campus1Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/Campus2Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/Campus3Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/Home1Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/Home2Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/SettingFragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/Study1Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/Study2Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/CalenderActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/FinalExamActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/GetCETActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/GetGradeActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/HistoryActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/LessonNoteActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/LibraryActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/NewsActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/TopicActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/activity/WeatherActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/AccountCheck.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/CET2Html.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/CalenderFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/Course2Json.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/CourseFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/ExamFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/GradeFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/History2Html.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/History2Json.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/HistoryFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/HttpReply.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/LibraryFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/NetResponse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/News2Html.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/News2Json.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/NewsFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/Topic2Html.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/Topic2Json.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/TopicFetcher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/leechunjun/school/data/WeatherFetcher.java" charset="GBK" />
+  </component>
+</project>
